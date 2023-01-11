@@ -7,6 +7,6 @@ policies:
   - if: ['ClientSideWeb', 'HttpResponseSource', 'Logging']
     then: ignore
 # One can use the feature to turn off rules as well.
-  - if: ['NoSQLInjection']
+  - if: ['NoSQL']
     then: ignore
     reason: "Too many FPs"
