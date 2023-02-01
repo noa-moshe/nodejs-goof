@@ -1,5 +1,5 @@
 policies:
-	- if: ['ServerSideWeb', 'EnvVariableSource']
+  - if: ['ServerSideWeb', 'EnvVariableSource']
     not: ['ClientSideWeb']
     then: ignore
   - if: ['Sqli', 'DatabaseSource']
