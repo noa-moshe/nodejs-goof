@@ -8,5 +8,5 @@ policies:
     then: ignore
 # One can use the feature to turn off rules as well.
   - if: ['NoSqli']
-    then: ignore
+    then: low-priority
     reason: "Too many FPs"
