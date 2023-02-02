@@ -6,7 +6,7 @@ policies:
     then: low-priority
   - if: ['ClientSideWeb', 'HttpResponseSource', 'Logging']
     then: ignore
-# One can use the feature to turn off rules as well.
+# One can use the feature to turn off rules as well
   - if: ['NoSqli']
     then: low-priority
     reason: "Too many FPs"
