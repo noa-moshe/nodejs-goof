@@ -1,5 +1,5 @@
 policies:
 # One can use the feature to turn off rules as well
   - if: ['NoSqli']
-    then: low-severity
+    then: ignore
     reason: "Too many FPs"
